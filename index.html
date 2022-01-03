@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="body">
+        <div id="container">
+            <form>
+                <label for="bill">Bill Amount:</label>
+                <input type="text" id="amount" class="mb-20 txt-center"><br>
+                <label for="tip">Tip Percentage:</label>
+                <input type="text" id="tip" class="mb-20 txt-center"><br>
+                <label for="people">Split Between:</label>
+                <select type="text" id="people" class="mb-20 txt-center">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><br>
+                <div class="txt-center">
+                    <button onclick="calculate()" type="button">Calculate</button>
+                </div>
+            </form>
+            <p id="answer"></p>
+        </div>
+    </div>
+</body>
+</html>
