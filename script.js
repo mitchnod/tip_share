@@ -5,5 +5,5 @@ function calculate(amount, tip, people){
 
     answer = (tip/100 * amount)/people;
     answer = answer.toFixed(2)
-    document.getElementById("answer").innerText = `You owe $${answer} each.`
+    document.getElementById("answer").innerText = `$${answer} each`
 }

@@ -5,16 +5,21 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.mb-20{
-    margin-bottom: 20px;
+.mb-30{
+    margin-bottom: 30px;
 }
 
 .txt-center{
     text-align: center;
 }
 
-#body{
-    background-color: #5cdb95;
+.br-15{
+    border-radius: 15px;
+    padding: 20px;
+}
+
+body{
+    background-color: #5584AC;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -22,10 +27,17 @@
     justify-content: center;
 }
 
-#container{
-    background-color: #55c788;
-    padding: 20px;
-    border-radius: 15px;
+h1, #answer_container{
+    background-color: #4c7aa1;
+    color: white;
+}
+
+#form_container{
+    background-color: #4c7aa1;
+}
+
+#answer_container{
+    margin-top: 30px;
 }
 
 input{
@@ -40,16 +52,13 @@ select{
 }
 
 button{
-    background-color: green;
+    background-color: white;
     border-radius: 15px;
     border: none;
-    padding: 4px;
+    padding: 4px 8px;
 }
 
 button:hover{
-    background-color: rgb(1, 95, 1);
-}
-
-p{
-    text-align: center;
+    background-color: green;
+    cursor: pointer;
 }
