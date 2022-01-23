@@ -27,6 +27,10 @@ body{
     justify-content: center;
 }
 
+h1{
+    font-size: 30px;
+}
+
 h1, #answer_container{
     background-color: #4c7aa1;
     color: white;
